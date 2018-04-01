@@ -4,9 +4,9 @@
 
 ## Feature
 ------
-*Responsive slider
-*Animation
-*Slider Preloader
+* Responsive slider
+* Animation
+* Slider Preloader
 
 ###Plugin
 -------
