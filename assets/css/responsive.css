@@ -1,0 +1,80 @@
+/*******************************
+	All Responsive Code
+*******************************/
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.single-slide-item h2 {
+  font-size: 50px;
+}     
+}
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+.single-slide-item{
+    text-align: center;
+}
+
+.single-slide-item h2 {
+    font-size: 40px;
+}
+.single-slide-item {
+    font-size: 17px;
+}
+
+.homepage-slides .owl-nav div {
+    color: #333;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+}
+.homepage-slides .owl-nav {
+    margin-top: 5px;
+    text-align: center;
+}
+.homepage-slides .owl-nav div.owl-next, .homepage-slides .owl-nav div {
+    left: auto;
+    margin: 10px;
+    right: auto;
+}  
+    
+}
+
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    
+.single-slide-item{
+    text-align: center;
+}
+
+.single-slide-item h2 {
+    font-size: 30px;
+}
+.single-slide-item {
+    font-size: 15px;
+}
+
+.single-slide-item {
+    height: 450px;
+}
+.homepage-slides .owl-nav div {
+    color: #333;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+}
+.homepage-slides .owl-nav {
+    margin-top: 5px;
+    text-align: center;
+}
+.homepage-slides .owl-nav div.owl-next, .homepage-slides .owl-nav div {
+    left: auto;
+    margin: 10px;
+    right: auto;
+}
+    
+}

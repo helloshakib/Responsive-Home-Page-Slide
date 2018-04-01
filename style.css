@@ -1,0 +1,273 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+
+
+.slide-bg-1 {
+    background: url(img/slide-bg-1.jpg)
+
+}
+.slide-bg-2 {
+    background: url(img/slide-bg-2.jpg)
+
+}
+
+
+
+.single-slide-item {
+    background-size:  cover;
+    background-position:  center;
+    background-color:  #ddd;
+    height: 599px;
+    color:  #fff;
+}
+
+.slide-item-table {
+    display:  table;
+    width: 100%;
+    height: 100%;
+}
+
+.slide-item-tablecell {
+    display:  table-cell;
+    vertical-align:  middle;
+}
+
+.single-slide-item h2 {
+    font-size: 60px;
+    margin: 0 0 30px;
+}
+
+.single-slide-item p {
+    font-size: 24px;
+}
+
+.factorian-btn {
+    display:  inline-block;
+    background: #f7be49;
+    padding:  7px 12px;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: 400;
+    color: #222;
+    text-decoration:  none;
+}
+
+.factorian-btn.slide-btn {
+    margin-top: 20px;
+    text-decoration:  none;
+    color: #222;
+}
+
+
+
+
+
+
+
+.homepage-slides .owl-nav div {
+    position:  absolute;
+    top: 50%;
+    left:  50px;
+    color:  #fff;
+    height:  40px;
+    width:  40px;
+    border:  2px solid;
+    text-align:  center;
+    line-height: 35px;
+    margin-top: -20px;
+    opacity:.8;
+}
+.homepage-slides .owl-nav div:hover{
+    opacity:1;
+}
+
+
+
+.homepage-slides .owl-nav div.owl-next {
+    left: auto;
+    right:  50px;
+}
+
+
+
+
+
+
+.homepage-slides-wrapper {
+    position: relative;
+}
+
+/* Preloaders CSS */
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    margin: 100px auto;
+    -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+    animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+@-webkit-keyframes sk-rotateplane {
+    0% {
+        -webkit-transform: perspective(120px)
+    }
+    50% {
+        -webkit-transform: perspective(120px) rotateY(180deg)
+    }
+    100% {
+        -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg)
+    }
+}
+@keyframes sk-rotateplane {
+    0% {
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+    }
+    50% {
+        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+    }
+    100% {
+        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+        -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+}
+.spinner-2 {
+    width: 40px;
+    height: 40px;
+    margin: 100px auto;
+    background-color: #333;
+    border-radius: 100%;
+    -webkit-animation: sk-scaleout2 1.0s infinite ease-in-out;
+    animation: sk-scaleout2 1.0s infinite ease-in-out;
+}
+@-webkit-keyframes sk-scaleout2 {
+    0% {
+        -webkit-transform: scale(0)
+    }
+    100% {
+        -webkit-transform: scale(1.0);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+}
+@keyframes sk-scaleout2 {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+}
+.factorian-site-preloader-wrap {
+    background: #fff none repeat scroll 0 0;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.factorian-site-preloader-wrap .spinner-2 {
+    left: 50%;
+    margin: -20px 0 0 -20px;
+    position: absolute;
+    top: 50%;
+}
+
+
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+
+
+.homepage-slides-wrapper {
+    position: relative;
+}
+
+.slide-preloader-wrap {
+    position:  absolute;
+    left: 0;
+    top: 0;
+    background: #f6bd49;
+    width:  100%;
+    height: 100%;
+    z-index: 9999;
+   
+}
+
+.slide-preloader-wrap .spinner {
+    top: 50%;
+    left:  50%;
+    position:  absolute;
+    margin-left:  -20px;
+    margin-top: -20px;
+    margin: 0;
+}
+
