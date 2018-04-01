@@ -8,7 +8,7 @@
 * Animation
 * Slider Preloader
 
-###Plugin
+##Plugin
 -------
 * Bootstrap v3.3.7 
 * WoW.js
