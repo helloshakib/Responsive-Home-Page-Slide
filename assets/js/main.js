@@ -27,7 +27,7 @@ $(document).ready(function($){
 	
 	
 	 jQuery(window).load(function(){
-       jQuery(".slide-preloader-wrap").fadeOut(500);
+       jQuery(".slide-preloader-wrap, .site-preloader").fadeOut(500);
     });
 
 }(jQuery));

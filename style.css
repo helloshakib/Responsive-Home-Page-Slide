@@ -38,8 +38,6 @@ p {
     margin: 0;
 }
 
-
-
 .slide-bg-1 {
     background: url(img/slide-bg-1.jpg)
 
@@ -48,8 +46,6 @@ p {
     background: url(img/slide-bg-2.jpg)
 
 }
-
-
 
 .single-slide-item {
     background-size:  cover;
@@ -96,11 +92,6 @@ p {
 }
 
 
-
-
-
-
-
 .homepage-slides .owl-nav div {
     position:  absolute;
     top: 50%;
@@ -126,95 +117,66 @@ p {
 }
 
 
-
-
-
-
 .homepage-slides-wrapper {
     position: relative;
 }
 
 /* Preloaders CSS */
 
-.spinner {
-    width: 40px;
-    height: 40px;
-    background-color: #333;
-    margin: 100px auto;
-    -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
-    animation: sk-rotateplane 1.2s infinite ease-in-out;
-}
-@-webkit-keyframes sk-rotateplane {
-    0% {
-        -webkit-transform: perspective(120px)
-    }
-    50% {
-        -webkit-transform: perspective(120px) rotateY(180deg)
-    }
-    100% {
-        -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg)
-    }
-}
-@keyframes sk-rotateplane {
-    0% {
-        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
-    }
-    50% {
-        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-        -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
-    }
-    100% {
-        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-        -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-    }
-}
+
+/*site-preloader*/
+
 .spinner-2 {
-    width: 40px;
-    height: 40px;
-    margin: 100px auto;
-    background-color: #333;
-    border-radius: 100%;
-    -webkit-animation: sk-scaleout2 1.0s infinite ease-in-out;
-    animation: sk-scaleout2 1.0s infinite ease-in-out;
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+  background-color: #333;
+
+  border-radius: 100%;  
+  -webkit-animation: sk-scaleout2 1.0s infinite ease-in-out;
+  animation: sk-scaleout2 1.0s infinite ease-in-out;
 }
+
 @-webkit-keyframes sk-scaleout2 {
-    0% {
-        -webkit-transform: scale(0)
-    }
-    100% {
-        -webkit-transform: scale(1.0);
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    }
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
 }
+
 @keyframes sk-scaleout2 {
-    0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-    }
-    100% {
-        -webkit-transform: scale(1.0);
-        transform: scale(1.0);
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    }
+  0% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
 }
-.factorian-site-preloader-wrap {
-    background: #fff none repeat scroll 0 0;
-    height: 100%;
-    position: fixed;
-    width: 100%;
-    z-index: 9999;
+
+.site-preloader {
+    position:  fixed;
+    background:  #fff;
+    width:  100%;
+    height:  100%;
+    z-index:  999;
 }
-.factorian-site-preloader-wrap .spinner-2 {
-    left: 50%;
-    margin: -20px 0 0 -20px;
-    position: absolute;
+
+.site-preloader .spinner-2 {
     top: 50%;
+    left:  50%;
+    margin:  0;
+    margin-left:  -20px;
+    margin-top:  -20px;
+    position:  absolute;
 }
 
 
+
+
+/*Slider PreLoader CSS*/
 
 .spinner {
   width: 40px;
