@@ -1,23 +1,21 @@
-# Front End Development Quick Start pack
+# Responsive Slider With Preloader
 ---
 
 
 ## Feature
 --- 
 
-* Boilerplate html5
-* Bootstrap v3.3.7 
-* Font Awesome v4.7.0
-* Normalize Css
-* JQuery v3.2.0
-* 404 page
-* Favicon Icon
+* Site Preloader
+* Slider Preloader
+* Responsive slide
+* Animation 
+* Table base slider
 
 ### Extra Plugin
 ---
 
 * WoW.js
 * Animate.Css
-* Hover Css
+* Bootstrap v3.3.7 
 * Owl Carousel v2.2.1
-* Magnific Popup
+* JQuery
