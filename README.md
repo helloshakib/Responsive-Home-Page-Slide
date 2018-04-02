@@ -7,6 +7,7 @@
 * Responsive slider
 * Animation
 * Slider Preloader
+* Full Site Preloader
 
 ### Plugin
 -------
